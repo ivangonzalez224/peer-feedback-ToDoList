@@ -6,6 +6,7 @@ let dataTaskCreate = [];
 // create card(s) for new task(s)
 const createTask = (start, end, arr) => {
   dataTaskCreate = arr;
+  
   for (let i = start; i < end; i += 1) {
     const taskContainer = document.createElement('div');
     taskContainer.className = 'task_container container';
